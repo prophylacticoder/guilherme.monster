@@ -4,6 +4,8 @@
 
 body {
   width: 1400px;
+  min-width: 400px;
+  width: 80%;
   margin: 0 auto;
   background-color: aliceblue;
   font-family: 'IBM Plex Sans Thai Looped', sans-serif;
@@ -32,6 +34,8 @@ hr {
 
 .heading-class {
   max-width: 960px;
+  min-width: 400px;
+  width: 80%;
   margin: 64px auto 32px auto;
   display: flex;
   flex-wrap: wrap;
@@ -50,8 +54,16 @@ hr {
 }
 .main-class {
   max-width: 960px;
+  min-width: 400px;
+  width: 80%;
   margin: 16px auto 0 auto;
   padding: 16px;
+}
+.text-class {
+  max-width: 960px;
+  min-width: 400px;
+  width: 80%;
+  color: rgb(63, 60, 60);
 }
 .text-class h1 {
   margin-bottom: 16px;
@@ -75,13 +87,13 @@ hr {
 #blog-contact-div {
   display: inline-block;
 }
-
+/*
 .text-class {
   width: 500px;
   margin: 0 auto;
-  color: rgb(63, 60, 60);
+ 
 }
-
+*/
 .twitter-timeline {
   margin-bottom: 25px;
 }
@@ -112,6 +124,7 @@ hr {
   display: block;
   text-align: center;
 }
+/*
 @media screen and (max-width: 1200px) {
   body {
     margin: auto;
@@ -153,3 +166,4 @@ hr {
     float: none;
   }
 }
+*/
