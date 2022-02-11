@@ -10,10 +10,6 @@ body {
   background-color: aliceblue;
   font-family: 'IBM Plex Sans Thai Looped', sans-serif;
   line-height: 25px;
-  /*
-  overflow-wrap: break-word;
-  overflow-x: hidden;
-  */
 }
 
 strong {
@@ -26,9 +22,6 @@ a {
 a:visited {
   color: #2b7bb9;
 }
-hr {
-  margin-bottom: 32px;
-}
 
 /*configuração body*/
 
@@ -36,7 +29,7 @@ hr {
   max-width: 960px;
   min-width: 400px;
   width: 80%;
-  margin: 64px auto 32px auto;
+  margin: 64px auto 0px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -47,17 +40,14 @@ hr {
   margin: 16px auto 16px auto;
   display: block;
   border-radius: 15px;
-  /*
-  padding-right: 10px;
-  */
   padding-bottom: 16px;
 }
 .main-class {
   max-width: 960px;
   min-width: 400px;
   width: 80%;
-  margin: 16px auto 0 auto;
-  padding: 16px;
+  margin: 0 auto 0 auto;
+  padding: 0 16px;
 }
 .text-class {
   max-width: 960px;
@@ -72,98 +62,6 @@ hr {
 .text-class p {
   margin-bottom: 16px;
 }
-
-/*
-.header-one {
-  display: inline-block;
-  font-size: 1.7em;
+.post h1 {
+  margin-bottom: 16px;
 }
-*/
-
-#home-link {
-  display: inline-block;
-}
-
-#blog-contact-div {
-  display: inline-block;
-}
-/*
-.text-class {
-  width: 500px;
-  margin: 0 auto;
- 
-}
-*/
-.twitter-timeline {
-  margin-bottom: 25px;
-}
-
-#contact-heading {
-  text-align: center;
-  font-size: 3em;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-#contact-img {
-  display: block;
-  margin: auto;
-  height: 250px;
-  width: 250px;
-  border-radius: 3px;
-}
-
-.contact-icons {
-  display: flex;
-  justify-content: space-around;
-  margin: auto;
-  width: 200px;
-}
-
-.middle-text {
-  display: block;
-  text-align: center;
-}
-/*
-@media screen and (max-width: 1200px) {
-  body {
-    margin: auto;
-    width: 375px;
-    font-size: 25px;
-    text-align: center;
-    line-height: 30px;
-  }
-
-  .heading-one {
-    margin-bottom: 20px;
-  }
-
-  #personal-photo {
-    margin-top: 5px 0;
-    width: 350px;
-    height: 350px;
-    float: none;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  body {
-    margin: auto;
-    width: 375px;
-    font-size: 25px;
-    text-align: center;
-    line-height: 30px;
-  }
-
-  .heading-one {
-    margin-bottom: 20px;
-  }
-
-  #personal-photo {
-    margin-top: 5px 0;
-    width: 350px;
-    height: 350px;
-    float: none;
-  }
-}
-*/
