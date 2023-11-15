@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f2ff; /* Cool Blue */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #fff; /* Changed text color for better visibility */
+    margin-top: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+.nav-left, .nav-right {
+    margin-top: 15px;
+}
+
+.nav-left a, .nav-right a {
+    color: #003366; /* Darker Blue */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #002244; /* Even darker blue for hover effect */
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.my-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px; /* Adds some space between the image and the text */
+}
+
+/* Additional styling for the text and lists */
+#about p, #about ul {
+    max-width: 800px; /* Set a max-width for better readability on wider screens */
+    margin-bottom: 15px;
+}
+
+#about ul {
+    list-style: none; /* Removes the default list styling */
+    padding: 0;
+}
+
+#about ul li {
+    margin-bottom: 10px;
+}
+
+#contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+#contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact-info ul li {
+    margin-bottom: 10px;
+}
+
+#about p:last-of-type {
+    margin-bottom: 70px; /* Adjust the value as needed */
+}
+
+/* ... rest of your CSS ... */
+
